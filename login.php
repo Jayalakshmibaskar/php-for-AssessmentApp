@@ -17,7 +17,7 @@ else{
 
     if(mysqli_num_rows($result)>0){
         while($row=mysqli_fetch_assoc($result)){
-         $assesmentdata="select * from testdata";
+        //  $assesmentdata="select * from testdata";
     $myObj->error = "false";
     $myObj->message = "Login successful";
     
